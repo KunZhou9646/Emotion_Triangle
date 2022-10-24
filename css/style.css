@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.app{
+    width: 1800px;
+    margin: auto;
+    background-image: url(../image/background.png); 
+    background-position: center;
+    background-size: cover ;
+    height: 900px;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+}
+
+.audiobox{
+    width: 820px;
+    height: 650px;
+    /* background-color: skyblue; */
+    margin: auto;
+    position: relative;
+    padding: 150px;
+}
+
+.dot{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    border: solid 3px #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 2px 0;
+}
+
+/* 点定位 */
+.line1{
+    margin: 50px;
+    width: 20px;
+    margin: auto;
+}
+.line2{
+    margin: 50px;
+    width: 105px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.line3{
+    margin: 50px;
+    width: 172px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.line4{
+    margin: 50px;
+    width: 236px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.line5{
+    margin: 50px;
+    width:304px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.line6{
+    margin: 50px;
+    width: 373px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.line7{
+    margin: 50px;
+    width: 440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.line8{
+    margin: 50px;
+    width: 520px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.line9{
+    margin: 50px;
+    width: 590px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.line10{
+    margin: 50px;
+    width: 660px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.line11{
+    margin: 50px;
+    width: 730px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dontA{
+    position: absolute;
+    top: 65px;
+    left: 422px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+
+.dontB{
+    position: absolute;
+    top: 524px;
+    left: -10px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #000;
+}
+
+.dontC{
+    position: absolute;
+    top: 524px;
+    left: 910px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #000;
+}
